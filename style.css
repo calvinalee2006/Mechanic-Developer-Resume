@@ -1,0 +1,44 @@
+body{
+    background: #35424a;
+    color: #ffffff;
+}
+
+.homeNav {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.homeNav a {
+    float: right;
+    color:#ffffff;
+    text-align: center;
+    padding: 30px 16px 60px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.homeNav a:hover{
+    background-color: #ddd;
+    color:black;
+}
+
+.homeNav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.baby{
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  padding: 5px;
+  width: 50%;
+}
+
+.begin {
+    float:right;
+    text-align:center;
+    width:40%;
+    padding: 10px;
+    font-size:30px;
+}
