@@ -1,10 +1,13 @@
-body{
+
+/*Home Page */
+.intro{
     background: #35424a;
     color: #ffffff;
+    overflow:hidden;
 }
 
 .homeNav {
-    width: 50%;
+    width: 30%;
     margin: auto;
     overflow: hidden;
 }
@@ -28,17 +31,57 @@ body{
     color: white;
 }
 
-.baby{
+.profile{
   border: 1px solid #ddd;
   border-radius: 50px;
   padding: 5px;
-  width: 50%;
+  width: 40%;
 }
 
 .begin {
     float:right;
     text-align:center;
-    width:40%;
+    width:55%;
     padding: 10px;
     font-size:30px;
 }
+
+#dev-c {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width:30%;
+    height:30%;
+}
+
+#shop{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    width: 30%;
+    height:30%;
+    
+}
+
+.jobNav{
+    vertical-align: top;
+    display:inline;
+    text-align: center;
+    width: 120px;
+}
+
+.jobNav p{
+display: block;
+}
+
+.jobNav a:hover{
+    background-color: #ddd;
+    color:black;
+}
+
+.jobNav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Mechanic page */
+
