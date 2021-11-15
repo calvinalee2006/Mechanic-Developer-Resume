@@ -226,3 +226,16 @@ header a:hover{
 
 /*About me */
 
+.navigation{
+    overflow:hidden;
+    background-color:#ffffff
+}
+
+.navigation a{
+    float: right;
+    color:black;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size:18px;
+}
