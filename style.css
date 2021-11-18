@@ -226,10 +226,41 @@ ul{
 
 /*About me */
 
-.navBar .li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+#about_nav{
+    list-style-type:none;
+    padding: 1em 0;
+    text-align:center;
+    border-bottom: 3px solid #000000;
+    background-color: #000000;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px
 }
+
+#about_nav li {
+    display: inline;
+    padding: 0 1.5em;
+}
+
+#about_nav li a {
+    font-weight:bold;
+    color:white;
+}
+
+#about_nav li a.current{
+    text-decoration: none;
+}
+
+.me{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.know_me{
+    width: 50%;
+    padding-left:5%;
+    overflow: hidden;
+    font-size: 20px;
+}  
+
+
