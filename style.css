@@ -224,6 +224,7 @@ ul{
     font-size:25px;
 }
 
+
 /*About me */
 
 #about_nav{
@@ -254,28 +255,27 @@ ul{
 text-align: center;
 font-size: 40px;
 font-family: 'Libre Baskerville', serif;
+margin: 5%
 }
 
-.know_me{
-    width: 50%;
-    padding-left:5%;
+.know_container{
+    padding-left:2%;
     overflow: hidden;
     font-size: 20px;
-}  
+    display: flex;
+    float:left;
+} 
 
-/*slideshow*/
-
-
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+.about_info{
+    padding:10px;
 }
 
-
-.mySlides {
-  display: inline-block;
+#slideshow {
+    margin: 10px;
+    padding-top: 18%;
+    float:right;
 }
 
+.fa fa-github{
+    float:right;
+}
