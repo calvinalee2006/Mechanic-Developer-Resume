@@ -7,7 +7,7 @@
 }
 
 .homeNav {
-    width: 30%;
+    width: 40%;
     margin: auto;
     overflow: hidden;
 }
@@ -49,28 +49,28 @@
 #dev-c {
     border: 1px solid #ddd;
     border-radius: 4px;
-    width:30%;
-    height:30%;
+    width:40%;
+    height:40%;
 }
 
 #shop{
     border: 1px solid #ddd;
     border-radius: 4px;
     text-decoration: none;
-    width: 30%;
-    height:30%;
+    width: 80px;
+    height:80px;
     
 }
 
 .jobNav{
     vertical-align: top;
-    display:inline;
+    display:inline-flex;
     text-align: center;
     width: 120px;
 }
 
 .jobNav p{
-display: block;
+display: inline-flex;
 }
 
 .jobNav a:hover{
@@ -276,4 +276,29 @@ margin: 5%
     float:right;
 }
 
+/*Developer page */
 
+.story {
+    font-size: 25px;
+    width: 90%;
+    margin:0px;
+}
+
+
+#projects {
+    background-color:#000000;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 5px solid #808080;   
+    margin: 0px;
+    padding: 0px;
+}
+
+.projects {
+    background-image: url('./images/project_background.jpg');
+}
+
+.project_list {
+    display: inline-flex;
+    padding-top: 20%;
+}
