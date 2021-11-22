@@ -46,43 +46,6 @@
     font-size:30px;
 }
 
-#dev-c {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    width:40%;
-    height:40%;
-}
-
-#shop{
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    text-decoration: none;
-    width: 80px;
-    height:80px;
-    
-}
-
-.jobNav{
-    vertical-align: top;
-    display:inline-flex;
-    text-align: center;
-    width: 120px;
-}
-
-.jobNav p{
-display: inline-flex;
-}
-
-.jobNav a:hover{
-    background-color: #ddd;
-    color:black;
-}
-
-.jobNav a.active {
-    background-color: #04AA6D;
-    color: white;
-}
-
 /* Mechanic page */
 
 body{ 
@@ -296,9 +259,21 @@ margin: 5%
 
 .projects {
     background-image: url('./images/project_background.jpg');
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .project_list {
-    display: inline-flex;
+    display: block;
     padding-top: 20%;
+    padding-left: 5%;
+    
+}
+
+.project_caption {
+font-size: 20px;
+padding-left: 40px;
+
 }
