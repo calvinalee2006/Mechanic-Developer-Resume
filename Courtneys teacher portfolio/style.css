@@ -25,7 +25,6 @@
 
   }
 
-
   .main-nav li a {
       text-decoration: none;
       color:#fff;
@@ -37,6 +36,18 @@
       background-color: #8b008b;
   }
 
+  /* Contact */
+  .contact {
+      font-size: 25px;
+  }
+
+  .contact a {
+      color:#fff;
+      font-size:30px;  
+  }
+
+
+
   /*Introduction*/
   .introduction {
       padding-top:5px;
@@ -46,4 +57,19 @@
       font-family: 'Libre Baskerville', serif;
       font-size: 35px;
       line-height: 1.2;
+  }
+
+  /* About me */
+  .about-me h2 {
+      text-align:center;
+      font-size: 50px;
+      background-color: #f70776;
+      color:#fff;
+      padding: 0;
+      margin: 0;
+  }
+
+  .hobby {
+      font-size: 30px;
+      padding-top: 0px;
   }
